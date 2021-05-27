@@ -26,7 +26,6 @@ public class UserDaoHibernateImpl extends Util implements UserDao {
         session.createSQLQuery(sql).executeUpdate();
         session.getTransaction().commit();
         session.close();
-        System.out.println("good2");
 
     }
 
