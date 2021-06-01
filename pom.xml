@@ -34,6 +34,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.25</version>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
@@ -47,8 +48,6 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.4.30.Final</version>
         </dependency>
-
-
     </dependencies>
 
 </project>
